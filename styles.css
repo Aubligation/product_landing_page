@@ -16,20 +16,12 @@ body {
     font-size: 22px;
 }
 
-.header-container {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    background-color: bisque;
-    justify-content: center;
-    align-items: center;
-}
-
 .menu-container {
+    color: #EEE2DC;
     display: flex;
     flex-wrap: wrap;
-    background-color: aqua;
-    border-bottom: solid 1px black;
+    background-color: #AC3B61;
+    border-bottom: solid 2px #123C69;
 
 }
 
@@ -63,12 +55,22 @@ ul {
     gap: 16px;
 }
 
+.header-container {
+    color: #123C69;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #EDC7B7;
+    justify-content: center;
+    align-items: center;
+}
+
 .content-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: aquamarine;
+    background-color: #EEE2DC;
     border-radius: 20px;
-    border: solid 3px black;
+    border: solid 3px #123C69;
     padding: 20px;
     margin: 30px;
 }
@@ -95,7 +97,7 @@ ul {
 }
 
 .header-button {
-    border: solid 2px red;
+    border: solid 2px #123C69;
     border-radius: 45px;
     width: 100px;
     background-color: white;
@@ -124,7 +126,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: blueviolet;
+    background-color: #BAB2B5;
 }
 
 .image-header {
@@ -154,17 +156,18 @@ figcaption {
     height: 200px;
     flex-wrap: wrap;
     width: 200px;
-    border: solid 2px blue;
+    border: solid 3px #123C69;
 }
 
 .quote-container {
-    background-color: bisque;
+    background-color: #EDC7B7;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .quote-wrapper {
+    color: #AC3B61;
     width: 500px;
     padding: 50px;
 }
@@ -187,7 +190,7 @@ figcaption {
 .cta-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: red;
+    background-color: #123C69;
     justify-content: center;
     align-items: center;
     padding: 45px;
@@ -197,7 +200,7 @@ figcaption {
     width: 800px;
     display: flex;
     flex-wrap: wrap;
-    background-color: aquamarine;
+    background-color: #BAB2B5;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -210,6 +213,7 @@ figcaption {
     align-items: center;
     text-align: center;
     margin: 10px;
+    color: black;
 }
 
 .cta {
@@ -224,7 +228,7 @@ figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 3px white;
+    border: solid 3px black;
     border-radius: 10px;
     width: 100px;
     padding: 15px;
@@ -232,8 +236,9 @@ figcaption {
 
 a, a:visited {
     text-decoration: none;
-    color: inher
+    color: inherit;
 }
+
 
 .aubligation {
     font-weight: bold;
@@ -242,14 +247,14 @@ a, a:visited {
 .footer {
     font-size: 13px;
     padding: 10px;
-
-    background-color: blue;
+    background-color: #AC3B61;
 }
 
 .footer-content {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 
